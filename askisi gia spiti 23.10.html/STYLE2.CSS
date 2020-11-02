@@ -1,0 +1,46 @@
+h1{
+    background-color: red;
+    text-align: center;
+    font-size: 3em;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+form{
+    background-color: blueviolet;
+}
+a{
+    background-color: cadetblue;
+}
+table{
+    background-color: chartreuse;
+}
+p{
+    background-color: salmon;
+    font-size: medium;
+}
+li{
+    background-color: seagreen;
+}
+figure{
+    background-color: sienna;
+}
+input{
+    background-color: tomato;
+}
+th{
+    background-color: yellow;
+}
+#prwto{
+    background-color: skyblue;
+}
+span{
+    background-color: springgreen;
+}
+#loremaki{
+    background-color: steelblue;
+}
