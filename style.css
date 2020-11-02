@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*body{
+    background-image:url(panionios.jpg);
+    color:white;
+}*/
+ul li:nth-child(3){
+    color:red;
+}
+nav{
+    margin-left: 50px;
+    margin-top:50px;
+}
+nav ul {
+    list-style:none;
+}
+
+    
+nav ul li{
+    background-color:aqua;
+    width:80px;
+    height:40px;
+    float:left;
+}
+
+nav ul li a{
+    height:40px;
+    width:80px;
+    text-decoration: none;
+    color:#000;
+    display:block;
+    background-color: pink;
+    text-align: center;
+    line-height: 40px;
+    
+    
+}
+
+nav ul li a:hover{
+    background-color: aqua;
+    text-decoration: underline;
+    transition:background-color 2s, height 2s,width 2s;
+    height:65px;
+    width:60px;
+}
+nav ul ul {
+    visibility: hidden;
+}
+
+nav ul li:hover ul{
+    visibility:visible;
+}
+
+nav ul ul ul{
+    position:relative;
+    left:80px;
+    top:-40px;
+}
+
+nav ul li:hover ul ul{
+    visibility:hidden;
+}
+    
+nav ul ul li:hover ul{
+    visibility:visible;
+}
+.current{
+    background-color: aqua;
+    text-decoration: underline;
+}
