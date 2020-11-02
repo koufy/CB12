@@ -1,0 +1,20 @@
+body{
+    background-color:pink;
+    text-align: :center;
+    font-family:verdana, tahoma
+}
+p{
+    color:purple;
+}
+span{
+    color:navy;
+}
+#yolo{
+    color:yellow;
+}
+#lola{color:silver;}
+#sissy{color:aqua;}
+#forza{
+    color:green;
+    background-color:white;
+}
